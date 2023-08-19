@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'New Rocker', cursive;
+    width:  1440px;
+    height: 3846px;
+    margin: 0 auto;
+    color: white;
+}
+
+#fundo{
+    height: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-cardapio{
+    font-size: 1.75em;
+    height: 4rem;
+    width: 100%;
+    text-align: center;
+    background-color:black;
+    padding: 1rem
+}
+
+.opcoes{
+    height: 90vh;
+    width: 80%;
+    background-color: #ccc;
+}
+
+#kids{
+    height: 30vh;
+}
+
+.lista-opcoes{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    
+}
+
+.capas{
+    background-color: white;
+    width: 10rem;
+    height: 10rem;
+}
