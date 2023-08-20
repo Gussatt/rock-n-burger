@@ -1,6 +1,7 @@
 * {
   margin: 0;
 }
+
 body {
   font-family: "New Rocker", cursive;
   width: 100%;
@@ -22,43 +23,51 @@ body {
 }
 
 .Caixa.scrolled {
-    background-color: #090909;
+  background-color: #090909;
 }
 
 .menu {
   position: relative;
 }
+
 .menu .logo {
   position: absolute;
   left: 50%;
-  transform: translateX(-50%); /*horizontalmente(X) elemento será movido em direção à esquerda em metade de sua largura */
+  transform: translateX(-50%);
+  /*horizontalmente(X) elemento será movido em direção à esquerda em metade de sua largura */
 }
+
 .menu .logo {
   display: block;
 }
+
 .menu .logo a img {
   width: 210px;
 }
+
 .links {
   text-align: right;
 }
+
 .links li {
   display: inline-block;
   padding: 40px 70px 40px 70px;
 
 }
+
 .links li a {
   text-decoration: none;
   letter-spacing: 1px;
-  
+
   color: #ffffff;
   font-size: 30px;
 }
 
 .links li:nth-child(1),
-.links li:nth-child(2){ 
-    float: left;
+.links li:nth-child(2) {
+  float: left;
 }
+
 .links li:hover a {
   color: #ED2939;
 }
@@ -66,41 +75,44 @@ body {
 
 /*Header*/
 
-.header{
-    width: 100%;
-    height: 500px;
+.header {
+  width: 100%;
+  height: 500px;
 
-    background: url(../images/ImgSobre.jpg) no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}  
-.header::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 500px;
-    background-color: rgba(0, 0, 0, 0.582); /* Cor preta com transparência */
+  background: url(../images/ImgSobre.jpg) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
-.frase h1{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 60PX ;
-    color: #ffffff;
+
+.header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.582);
+  /* Cor preta com transparência */
+}
+
+.frase h1 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60PX;
+  color: #ffffff;
 }
 
 
 /*imagem e texto*/
 
-#meio{
+#meio {
   height: 600px;
- 
+
 }
 
-#imagem_hamburguer{
+#imagem_hamburguer {
   width: 50%;
   height: 500px;
   position: relative;
@@ -111,7 +123,7 @@ body {
   float: left;
 }
 
-#paragrafos{
+#paragrafos {
   width: 38%;
   height: 300px;
   position: relative;
@@ -127,15 +139,15 @@ body {
   margin-top: 150px;
 }
 
-#paragrafo2{
+#paragrafo2 {
   clear: left;
 }
 
-hr{
-border-color:  #ed3929;    
+hr {
+  border-color: #ed3929;
 }
 
-.botao{
+.botao {
   height: 50px;
   position: relative;
   background-color: #ed3929;
@@ -143,28 +155,29 @@ border-color:  #ed3929;
   border-radius: 20px;
   color: #000;
   font-family: 'New Rocker', cursive;
-  font-size: 20px; 
+  font-size: 20px;
   transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
   margin-left: 150px;
   margin-top: 50px;
 }
-.botao:hover{
+
+.botao:hover {
   background-color: #000;
   color: white;
-  transform: scale(1.2) 
+  transform: scale(1.2)
 }
 
-#linhacoracao{
+#linhacoracao {
   position: relative;
-  clear: left;    
+  clear: left;
 
 }
 
-#linhacoracao img{
+#linhacoracao img {
   width: 200px;
   position: absolute;
   margin-top: -70px;
-  left:40%;
+  left: 40%;
   z-index: 3;
 
 }
@@ -174,99 +187,173 @@ border-color:  #ed3929;
 
 /* chefes*/
 
+#caixona {
+  width: 950px;
+  height: 900px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: auto;
+
+}
+
+
+/*
 #fundo{
  color: #fff;
  font-size: 20px;
  font-family: 'New Rocker', cursive;
 }
+*/
 
-#circulo{
-  width: 100%;
-  height: 700px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center;
-  margin-top: 100px;
-  margin-bottom: 50px;
-   
+#retangulo {
+  width: 250px;
+  height: 300px;
+  background-color: #fff;
+  border: 2px solid #ed3929;
 }
 
-#circulo img{
-  width: 300px;
+#retangulo2 {
+  width: 250px;
   height: 300px;
+  background-color: #fff;
+  border: 2px solid #ed3929;
+}
+
+#retangulo3 {
+  width: 250px;
+  height: 300px;
+  background-color: #fff;
+  border: 2px solid #ed3929;
+
+}
+
+#retangulo4 {
+  width: 250px;
+  height: 300px;
+  background-color: #fff;
+  border: 2px solid #ed3929;
+}
+
+#retangulo5 {
+  width: 250px;
+  height: 300px;
+  background-color: #fff;
+  border: 2px solid #ed3929;
+}
+
+#retangulo6 {
+  width: 250px;
+  height: 300px;
+  background-color: #fff;
+  border: 2px solid #ed3929;
+
+}
+
+
+#caixona img {
+  width: 200px;
+  height: 200px;
   border: 2px solid;
   border-radius: 50%;
   border: 2px solid #ed3929;
   background-size: cover;
   background-position: center center;
+  margin-left: -175px;
+  margin-top: 10px;
 
 }
-/*
-#luana{
+
+#retangulo2 img{
+  margin-left: -130px;
+}
+
+#retangulo4 img, #retangulo5 img{
+  margin-left: -5px;
+}
+
+#retangulo3 img,
+#retangulo6 img {
+  margin-left: -5px;
+}
+
+h3 {
+  text-align: center;
+  margin-top: -80px;
+}
+
+p {
+  text-align: center;
+}
+
+#luana {
   width: 300px;
   height: 300px;
   margin: auto;
- 
-  background-image: url(../images/ritalee.jpg);
+  padding-left: 200px;
+
+
   background-size: cover;
   background-position: center center;
- 
+
 
 }
 
-#gustavo{
+
+#gustavo {
   width: 300px;
   height: 300px;
   margin: auto;
- 
-  background-image: url(../images/elvispresley.jpg);
+  padding-left: 155px;
+
   background-size: cover;
   background-position: center center;
-  
+
 }
 
-#laura{
+#laura {
   width: 300px;
   height: 300px;
   margin: auto;
- 
-  background-image: url(../images/amywinehouse.jpg);
+  padding-left: 30px;
+
   background-size: cover;
   background-position: center center;
-  
+
 }
 
-#guilherme{
+#guilherme {
   width: 300px;
   height: 300px;
   margin: auto;
- 
-  background-image: url(../images/jameshetfield.jpg);
+  padding-left: 30px;
+
   background-size: cover;
   background-position: center center;
-     
+
 }
 
-#paula{
+#paula {
   width: 300px;
   height: 300px;
   margin: auto;
-    
-  background-image: url(../images/amylee.jpg);
+  padding-left: 30px;
+
   background-size: cover;
   background-position: center center;
-  
+
 }
 
-#davi{
+#davi {
   width: 300px;
   height: 300px;
   margin: auto;
-  
-  background-image: url(../images/BillieJoeArmstrong.jpg);
+  padding-left: 30px;
+
   background-size: cover;
   background-position: center center;
-  
+
 }
+
