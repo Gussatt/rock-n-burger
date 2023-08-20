@@ -1,17 +1,15 @@
-<<<<<<< HEAD
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
-    font-family: 'New Rocker', cursive;
-    width:  1440px;
-    height: 3846px;
-    margin: 0 auto;
-    color: white;
+body {
+    font-family: "New Rocker", cursive;
+    width: 100%;
+    height: 100vh;
+    font-weight: 400;
 }
 
-#fundo{
+#fundo {
     height: 60%;
     margin: 0 auto;
     display: flex;
@@ -20,134 +18,130 @@ body{
     align-items: center;
 }
 
-.titulo-cardapio{
+.titulo-cardapio {
     font-size: 1.75em;
     height: 4rem;
     width: 100%;
     text-align: center;
-    background-color:black;
+    background-color: black;
     padding: 1rem
 }
 
-.opcoes{
-    height: 90vh;
+.opcoes {
+    height: 70vh;
     width: 80%;
     background-color: #ccc;
 }
 
-#kids{
+#kids {
     height: 30vh;
 }
 
-.lista-opcoes{
+.lista-opcoes {
     display: grid;
     height: 100%;
     width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
-    
+
 }
 
-.capas{
+.capas {
     background-color: white;
     width: 10rem;
     height: 10rem;
 }
-=======
-* {
-    margin: 0;
-  }
-  body {
-    font-family: "New Rocker", cursive;
-    width: 100%;
-    height: 100vh;
-    font-weight: 400;
-  }
-  
-  /*Menu fixo*/
-  
-  .Caixa {
+
+/*Menu fixo*/
+
+.Caixa {
     width: 100%;
     margin: auto;
     position: fixed;
-  
+
     top: 0;
     z-index: 1000;
     transition: background-color 0.3s ease-in-out;
-  }
-  
-  .Caixa.scrolled {
-      background-color: #090909;
-  }
-  
-  .menu {
+}
+
+.Caixa.scrolled {
+    background-color: #090909;
+}
+
+.menu {
     position: relative;
-  }
-  .menu .logo {
+}
+
+.menu .logo {
     position: absolute;
     left: 50%;
-    transform: translateX(-50%); /*horizontalmente(X) elemento será movido em direção à esquerda em metade de sua largura */
-  }
-  .menu .logo {
+    transform: translateX(-50%);
+    /*horizontalmente(X) elemento será movido em direção à esquerda em metade de sua largura */
+}
+
+.menu .logo {
     display: block;
-  }
-  .menu .logo a img {
+}
+
+.menu .logo a img {
     width: 210px;
-  }
-  .links {
+}
+
+.links {
     text-align: right;
-  }
-  .links li {
+}
+
+.links li {
     display: inline-block;
     padding: 40px 70px 40px 70px;
-  
-  }
-  .links li a {
+
+}
+
+.links li a {
     text-decoration: none;
     letter-spacing: 1px;
-    
+
     color: #ffffff;
     font-size: 30px;
-  }
-  
-  .links li:nth-child(1),
-  .links li:nth-child(2){ 
-      float: left;
-  }
-  .links li:hover a {
-    color: #ED2939;
-  }
-  
-  
-  /*Header*/
-  
-  .header{
-      width: 100%;
-      height: 500px;
-  
-      background: url(../images/imgCardapio.jpg) no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
-  }  
-  .header::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 500px;
-      background-color: rgba(0, 0, 0, 0.582); /* Cor preta com transparência */
-  }
-  .frase h1{
-      position: absolute;
-      top: 40%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      font-size: 60PX ;
-      color: #ffffff;
-  }
-  
+}
 
-  
- 
->>>>>>> c79afe4afc9e195afa65395ac6a61ff5005f15a7
+.links li:nth-child(1),
+.links li:nth-child(2) {
+    float: left;
+}
+
+.links li:hover a {
+    color: #ED2939;
+}
+
+
+/*Header*/
+
+.header {
+    width: 100%;
+    height: 500px;
+
+    background: url(../images/imgCardapio.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.582);
+    /* Cor preta com transparência */
+}
+
+.frase h1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60PX;
+    color: #ffffff;
+}
