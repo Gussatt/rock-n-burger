@@ -73,7 +73,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
 .capa img{
@@ -214,4 +213,294 @@ body {
     transform: translate(-50%, -50%);
     font-size: 60PX;
     color: #ffffff;
+}
+
+/* Rodapé */
+
+:root {
+    --color-neutral-0:  #0e0c0c;
+    --color-neutral-30: #a8a29e;
+
+}
+
+
+
+*{
+    font-family: "New Rocker", cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+
+}
+
+footer{
+    width: 100%;
+    color: #fff;
+
+}
+.footer_contacts img{
+    width: 100px;
+}
+.footer-link{
+    text-decoration: none;
+}
+
+#footer_content {
+    background-color: #171717;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+}
+
+#footer_contacts h1{
+    margin-bottom: 0.75rem;
+
+}
+
+#footer_social_midia{
+    display:flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+
+}
+
+#footer_social_midia .footer-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: var(--color-neutral-40);
+    border-radius: 50%;
+    transition: a11 2.4s;
+
+}
+
+#footer_social_midia .footer-link{
+    font-size: 1.25rem;
+}
+
+#footer_social_midia .footer-link:hover{
+    opacity:0.8;
+}
+
+#instagram{
+    background-color: #7f37c9;
+
+}
+
+#envelope{
+    background-color: #4267b3;
+
+}
+
+#phone{
+    background-color: #25d366;
+
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+
+}
+
+.footer-list .footer-link{
+    color: #a8a29e;
+    transition: all 0.4s;
+
+}
+
+.footer-list .footer-link:hover{
+    color: #ED2939;
+
+}
+
+#footer_subscribe{
+    display:flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+}
+
+#footer_subscribe p{
+    color: #a8a29e;
+
+}
+
+#input_group{
+    display: flex;
+    background-color: #0e0c0c;
+    border-radius: 4px;
+
+}
+
+#input_group input{
+    all: unset;
+    padding: 0.75rem;
+    width: 100%;
+
+}
+
+#input_group button{
+    background-color: #ED2939;
+    border: none;
+    color: var(--color-neutral-40);
+    padding: 0px 1.25rem;
+    font-size: 1.125rem;
+    height: 100%;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+    transition: all 0.4s;
+
+}
+
+#input_group button:hover{
+    opacity: 0.8;
+
+}
+
+#footer_copyright{
+    display:flex;
+    justify-content: center;
+    background-color: #0e0c0c;
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+
+}
+
+/* Responsividade */
+
+@media only screen and (max-width: 767px) {
+    #footer_content {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3rem 2rem;
+    }
+
+    .links li a{
+        display: none;
+    }
+    
+    .menu .logo a img {
+        width: 100px; 
+    }    
+    .Caixa{
+        height: 35px;
+    }
+
+    body{
+        height: 320vh;
+    }
+
+    .lista-opcoes {
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+    }
+
+    .titulo-cardapio{
+        font-size: 1.5em;
+        height: 5vh;
+        width: 100%;
+        padding: .5rem
+    }
+
+    #lanches{
+        height: 95vh;
+    }
+
+    #kids {
+        height: 40vh;
+    }
+    
+    #bebidas{
+        height: 90vh;
+    }
+    
+    #sobremesas{
+        height: 55vh;
+    }
+
+    .album-container{
+        width: 10rem;
+        height: 8rem;
+    }
+
+    .capa{
+        width: 7rem;
+        height: 7rem;
+    }
+
+    .disco{
+        width: 6rem;
+        height: 6rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    @media only screen and (max-width: 1024px) {
+        
+        .menu .logo a img {
+            width: 130px; 
+        }    
+        .links li {
+            padding: 20px 25px; /* Reduzindo o espaçamento entre os links no menu */
+        }
+        .links li a{
+            font-size: 25px;
+        }
+        .Caixa{
+            height: 80px;
+        }
+
+        #footer_content {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+        }
+
+        body{
+            height: 347 vh;
+        }
+
+        .titulo-cardapio{
+            font-size: 1.5em;
+            height: 5vh;
+            width: 100%;
+            padding: .5rem
+        }
+
+        #lanches{
+            height: 70vh;
+        }
+
+        #kids {
+            height: 25vh;
+        }
+        
+        #bebidas{
+            height: 75vh;
+        }
+        
+        #sobremesas{
+            height: 45vh;
+        }
+
+        .album-container{
+            width: 12rem;
+            height: 12rem;
+        }
+
+        .capa{
+            width: 7rem;
+            height: 7rem;
+        }
+
+        .disco{
+            width: 6rem;
+            height: 6rem;
+        }
+    }
 }
