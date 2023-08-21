@@ -238,6 +238,7 @@ footer{
 
 
 
+/*TABLET*/
 @media only screen and (min-width: 768px) {
   @media only screen and (max-width: 1024px) {
       
@@ -271,7 +272,7 @@ footer{
   }
 
   .menu .logo a img {
-    width: 50px; 
+    width: 100px; 
   }    
   .Caixa{
     height: 35px;

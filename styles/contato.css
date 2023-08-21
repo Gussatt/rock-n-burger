@@ -254,13 +254,26 @@ footer{
       .links li a{
         font-size: 25px;
       }
+      .Caixa{
+        height: 80px;
+      }
   }
 }
 
-/*CELULAR*/
 @media only screen and (max-width: 767px) {
   #footer_content {
       grid-template-columns: repeat(1, 1fr);
       padding: 3rem 2rem;
+  }
+
+  .links li a{
+    display: none;
+  }
+
+  .menu .logo a img {
+    width: 100px; 
+  }    
+  .Caixa{
+    height: 35px;
   }
 }
