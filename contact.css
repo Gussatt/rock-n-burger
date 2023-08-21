@@ -10,6 +10,7 @@ body{
     width: 100vw;
     height: 100vh;
     background-color: black;
+    font-family: "New Rocker", cursive;
 }
 main{
     position: relative;
@@ -84,11 +85,11 @@ img{
 }
 .Telefone > h1, .email> h1, .endereço> h1{
     color: rgb(255, 255, 255);
-    font-size: 50px;
+    font-size: 30px;
 }
 .Telefone > p, .email > p, .endereço > p{
     padding: 0 5vh;
-    font-size: 30px;
+    font-size: 20px;
     color: rgb(255, 255, 255);
 }
 .Telefone, .email, .endereço{
@@ -99,7 +100,7 @@ img{
     padding: 2vh 0;
 }
 .conteiner5 > h2{
-    font-size: 60px;
+    font-size: 30px;
     color: #ffffff;
 }
 .type1, .type2{

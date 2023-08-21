@@ -97,7 +97,122 @@ body {
 /*CONTEUDO*/
 
 
+main{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  height: 100vh;
+  
+}
+img{
+  height: auto;
+  width: 33vw;
+}
 
+.conteiner1{
+  margin-top: 30px;
+  position: relative;
+  padding: 5vh 0 ;
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ff0000;
+
+}
+.conteiner2{
+  position: relative;
+  
+  float: left;
+  width: 50%;
+  height: 50vh;
+ 
+}
+.conteiner3{
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+
+}
+.conteiner4{
+  position: relative;
+  padding: 5vh 0;
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding-left: 100px;
+}
+.conteiner5{
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 50vh;
+}
+.conteiner6{
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 50vh;
+
+}
+.img2{
+  position: absolute;
+  padding: 0 6vw;
+  bottom: 0;
+
+  border-top-left-radius: 30%; 
+  border-top-right-radius: 30%; 
+}
+.Telefone > h1, .email> h1, .endereço> h1{
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
+.Telefone > p, .email > p, .endereço > p{
+  padding: 0 5vh;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+.Telefone, .email, .endereço{
+  position: relative;
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ff0000;
+  padding: 2vh 0;
+}
+.conteiner5 > h2{
+  font-size: 30px;
+  color: #ffffff;
+}
+.type1, .type2{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  font-size: 30px;
+  height: 5vh;
+  border-radius: 2vh;
+  padding: 0 3vh;
+  margin: 2vh 0;  
+}
+.type2{
+  position: relative;
+  height: 10vh;
+}
+.conteiner5 > button{
+  width: 30%;
+  padding: 2vh 0;
+  font-size: 30px;
+  background-color: #ED2939;
+  border-radius: 4vh;
+}
+.conteiner6 > img{
+  height: 80%;
+  width: 80%;
+
+}
 
 
 
@@ -105,6 +220,8 @@ body {
 footer{
   width: 100%;
   color: #fff;
+  
+  margin-top: 250px;
 
 }
 .footer_contacts img{
