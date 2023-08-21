@@ -14,8 +14,8 @@
         </a>
 </p>
 <div align="center">
-  <h2> Layout criado para o index.html</h2>
-![layout](https://github.com/Gussatt/rock-n-burger/assets/118837016/90cd7cab-d065-41b5-a6aa-910a64651248)  
+<h2> Layout criado para o index.html</h2>
+  ![Layout](images/layout.png)
 </div>
 
 <h3>
