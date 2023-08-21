@@ -29,6 +29,8 @@
   <br>
   David Oliveira
   <br>
+  Luana Arimitsu
+  <br>
   Gustavo Saturnino
   <br>
 </h3>
