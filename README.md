@@ -14,8 +14,8 @@
         </a>
 </p>
 <div align="center">
-<h2> Layout criado para o index.html</h2>
-  ![Layout](images/layout.png)
+  <h2> Layout criado para o index.html</h2>
+  <img src="/images/layout.png" alt="Nosso layout">
 </div>
 
 <h3>
