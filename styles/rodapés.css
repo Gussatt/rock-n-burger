@@ -91,7 +91,7 @@ footer{
 }
 
 .footer-list .footer-link{
-    color: var(--color-neutral-30);
+    color: #a8a29e;
     transition: all 0.4s;
 
 }
@@ -109,13 +109,13 @@ footer{
 }
 
 #footer_subscribe p{
-    color: var(--color-neutral-30);
+    color: #a8a29e;
 
 }
 
 #input_group{
     display: flex;
-    background-color: var(--color-neutral-0);
+    background-color: #0e0c0c;
     border-radius: 4px;
 
 }
@@ -148,9 +148,27 @@ footer{
 #footer_copyright{
     display:flex;
     justify-content: center;
-    background-color: var(--color-neutral-0);
+    background-color: #0e0c0c;
     font-size: 0.9rem;
     padding: 1.5rem;
     font-weight: 100;
 
+}
+
+
+@media only screen and (min-width: 768px) {
+    @media only screen and (max-width: 1024px) {
+        
+        #footer_content {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #footer_content {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3rem 2rem;
+    }
 }

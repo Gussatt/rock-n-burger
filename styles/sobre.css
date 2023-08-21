@@ -1,6 +1,7 @@
 * {
   margin: 0;
 }
+
 body {
   font-family: "New Rocker", cursive;
   width: 100%;
@@ -22,43 +23,51 @@ body {
 }
 
 .Caixa.scrolled {
-    background-color: #090909;
+  background-color: #090909;
 }
 
 .menu {
   position: relative;
 }
+
 .menu .logo {
   position: absolute;
   left: 50%;
-  transform: translateX(-50%); /*horizontalmente(X) elemento será movido em direção à esquerda em metade de sua largura */
+  transform: translateX(-50%);
+  /*horizontalmente(X) elemento será movido em direção à esquerda em metade de sua largura */
 }
+
 .menu .logo {
   display: block;
 }
+
 .menu .logo a img {
   width: 210px;
 }
+
 .links {
   text-align: right;
 }
+
 .links li {
   display: inline-block;
   padding: 40px 70px 40px 70px;
 
 }
+
 .links li a {
   text-decoration: none;
   letter-spacing: 1px;
-  
+
   color: #ffffff;
   font-size: 30px;
 }
 
 .links li:nth-child(1),
-.links li:nth-child(2){ 
-    float: left;
+.links li:nth-child(2) {
+  float: left;
 }
+
 .links li:hover a {
   color: #ED2939;
 }
@@ -66,41 +75,48 @@ body {
 
 /*Header*/
 
-.header{
-    width: 100%;
-    height: 500px;
+.header {
+  width: 100%;
+  height: 500px;
 
-    background: url(../images/ImgSobre.jpg) no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}  
+  background: url(../images/ImgSobre.jpg) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 .header::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 500px;
-    background-color: rgba(0, 0, 0, 0.582); /* Cor preta com transparência */
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 520px;
+  background-color: rgba(0, 0, 0, 0.582);
+  /* Cor preta com transparência */
 }
-.frase h1{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 60PX ;
-    color: #ffffff;
+
+.frase h1 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60PX;
+  color: #ffffff;
 }
+
+
 
 
 /*imagem e texto*/
 
-#meio{
+
+
+
+#meio {
   height: 600px;
- 
 }
 
-#imagem_hamburguer{
+#imagem_hamburguer {
   width: 50%;
   height: 500px;
   position: relative;
@@ -111,7 +127,7 @@ body {
   float: left;
 }
 
-#paragrafos{
+#paragrafos {
   width: 38%;
   height: 300px;
   position: relative;
@@ -127,15 +143,15 @@ body {
   margin-top: 150px;
 }
 
-#paragrafo2{
+#paragrafo2 {
   clear: left;
 }
 
-hr{
-border-color:  #ed3929;    
+hr {
+  border-color: #ed3929;
 }
 
-.botao{
+.botao {
   height: 50px;
   position: relative;
   background-color: #ed3929;
@@ -143,28 +159,29 @@ border-color:  #ed3929;
   border-radius: 20px;
   color: #000;
   font-family: 'New Rocker', cursive;
-  font-size: 20px; 
+  font-size: 20px;
   transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
   margin-left: 150px;
   margin-top: 50px;
 }
-.botao:hover{
+
+.botao:hover {
   background-color: #000;
   color: white;
-  transform: scale(1.2) 
+  transform: scale(1.2)
 }
 
-#linhacoracao{
+#linhacoracao {
   position: relative;
-  clear: left;    
+  clear: left;
 
 }
 
-#linhacoracao img{
+#linhacoracao img {
   width: 200px;
   position: absolute;
   margin-top: -70px;
-  left:40%;
+  left: 40%;
   z-index: 3;
 
 }
@@ -174,99 +191,478 @@ border-color:  #ed3929;
 
 /* chefes*/
 
-#fundo{
- color: #fff;
- font-size: 20px;
- font-family: 'New Rocker', cursive;
-}
+#caixona {
+  width: 950px;
+  height: 900px;
 
-#circulo{
-  width: 100%;
-  height: 700px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
-  margin-top: 100px;
-  margin-bottom: 50px;
-   
+  margin: auto;
+
 }
 
-#circulo img{
-  width: 300px;
+#retangulo {
+  width: 250px;
   height: 300px;
+  background-color: #fff;
+  border: 2px solid #ed3929;
+}
+
+#retangulo2 {
+  width: 250px;
+  height: 300px;
+  background-color: #fff;
+  border: 2px solid #ed3929;
+}
+
+#retangulo3 {
+  width: 250px;
+  height: 300px;
+  background-color: #fff;
+  border: 2px solid #ed3929;
+
+}
+
+#retangulo4 {
+  width: 250px;
+  height: 300px;
+  background-color: #fff;
+  border: 2px solid #ed3929;
+}
+
+#retangulo5 {
+  width: 250px;
+  height: 300px;
+  background-color: #fff;
+  border: 2px solid #ed3929;
+}
+
+#retangulo6 {
+  width: 250px;
+  height: 300px;
+  background-color: #fff;
+  border: 2px solid #ed3929;
+
+}
+
+
+#caixona img {
+  width: 200px;
+  height: 200px;
   border: 2px solid;
   border-radius: 50%;
   border: 2px solid #ed3929;
   background-size: cover;
   background-position: center center;
+  margin-left: -175px;
+  margin-top: 10px;
 
 }
-/*
-#luana{
+
+#retangulo2 img {
+  margin-left: -130px;
+}
+
+#retangulo4 img,
+#retangulo5 img {
+  margin-left: -5px;
+}
+
+#retangulo3 img,
+#retangulo6 img {
+  margin-left: -5px;
+}
+
+#caixona h3 {
+  text-align: center;
+  margin-top: -80px;
+}
+
+p {
+  text-align: center;
+}
+
+#luana {
   width: 300px;
   height: 300px;
   margin: auto;
- 
-  background-image: url(../images/ritalee.jpg);
+  padding-left: 200px;
+
+
   background-size: cover;
   background-position: center center;
- 
+
 
 }
 
-#gustavo{
+
+#gustavo {
   width: 300px;
   height: 300px;
   margin: auto;
- 
-  background-image: url(../images/elvispresley.jpg);
+  padding-left: 155px;
+
   background-size: cover;
   background-position: center center;
-  
+
 }
 
-#laura{
+#laura {
   width: 300px;
   height: 300px;
   margin: auto;
- 
-  background-image: url(../images/amywinehouse.jpg);
+  padding-left: 30px;
+
   background-size: cover;
   background-position: center center;
-  
+
 }
 
-#guilherme{
+#guilherme {
   width: 300px;
   height: 300px;
   margin: auto;
- 
-  background-image: url(../images/jameshetfield.jpg);
+  padding-left: 30px;
+
   background-size: cover;
   background-position: center center;
-     
+
 }
 
-#paula{
+#paula {
   width: 300px;
   height: 300px;
   margin: auto;
+  padding-left: 30px;
+
+  background-size: cover;
+  background-position: center center;
+
+}
+
+#davi {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  padding-left: 30px;
+
+  background-size: cover;
+  background-position: center center;
+
+}
+
+/* FOOTER */
+
+footer {
+  width: 100%;
+  color: #fff;
+
+}
+
+.footer_contacts img {
+  width: 100px;
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+#footer_content {
+  background-color: #171717;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 3rem 3.5rem;
+
+}
+
+#footer_contacts h1 {
+  margin-bottom: 0.75rem;
+
+}
+
+#footer_social_midia {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.5rem;
+
+}
+
+#footer_social_midia .footer-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  color: var(--color-neutral-40);
+  border-radius: 50%;
+  transition: a11 2.4s;
+
+}
+
+#footer_social_midia .footer-link {
+  font-size: 1.25rem;
+}
+
+#footer_social_midia .footer-link:hover {
+  opacity: 0.8;
+}
+
+#instagram {
+  background-color: #7f37c9;
+
+}
+
+#envelope {
+  background-color: #4267b3;
+
+}
+
+#phone {
+  background-color: #25d366;
+
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  list-style: none;
+
+}
+
+.footer-list .footer-link {
+  color: #a8a29e;
+  transition: all 0.4s;
+
+}
+
+.footer-list .footer-link:hover {
+  color: #ED2939;
+
+}
+
+#footer_subscribe {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+}
+
+#footer_subscribe p {
+  color: #a8a29e;
+
+}
+
+#input_group {
+  display: flex;
+  background-color: #0e0c0c;
+  border-radius: 4px;
+
+}
+
+#input_group input {
+  all: unset;
+  padding: 0.75rem;
+  width: 100%;
+
+}
+
+#input_group button {
+  background-color: #ED2939;
+  border: none;
+  color: var(--color-neutral-40);
+  padding: 0px 1.25rem;
+  font-size: 1.125rem;
+  height: 100%;
+  border-radius: 0px 4px 4px 0px;
+  cursor: pointer;
+  transition: all 0.4s;
+
+}
+
+#input_group button:hover {
+  opacity: 0.8;
+
+}
+
+#footer_copyright {
+  display: flex;
+  justify-content: center;
+  background-color: #0e0c0c;
+  font-size: 0.9rem;
+  padding: 1.5rem;
+  font-weight: 100;
+
+}
+
+
+@media only screen and (min-width: 768px) {
+  @media only screen and (max-width: 1024px) {
+
+    #footer_content {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+    }
+
+    .menu .logo a img {
+      width: 130px;
+    }
+
+    .links li {
+      padding: 20px 25px;
+      /* Reduzindo o espaçamento entre os links no menu */
+    }
+
+    .links li a {
+      font-size: 25px;
+    }
+
+    .Caixa{
+      height: 80px;
+    }
+
+    #meio {
+      height: 90px;
+    }
+
+    #meio button{
+      margin-left: 51px;
+    }
+
+    #caixona {
+      width: 450px;
+      height: 400px;
+      padding-top:  80px;
+
+    }
+
+    #retangulo,
+    #retangulo2,
+    #retangulo3,
+    #retangulo4,
+    #retangulo5,
+    #retangulo6 {
+      width: 120px;
+      height: 170px;
+    }
+
+    #luana,
+    #gustavo,
+    #laura,
+    #guilherme,
+    #paula,
+    #davi {
+      width: 90px;
+      height: 90px;
+      font-size: 10px;
+    }
     
-  background-image: url(../images/amylee.jpg);
-  background-size: cover;
-  background-position: center center;
-  
+    #caixona img {
+      width: 80px;
+      height: 80px;
+    }
+
+    #caixona p{
+    margin-bottom: 100px;
+    }
+
+    #caixona h3{
+      padding-top: 90px;
+    }
+
+  }
 }
 
-#davi{
-  width: 300px;
-  height: 300px;
-  margin: auto;
+@media only screen and (max-width: 767px) {
+  #footer_content {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 3rem 2rem;
+  }
+
+  .menu .logo a img {
+    width: 150px;
+    margin-left: -80px;
+  }
+
+  .header{
+    margin-right: 00px;
+  }
+  .links li {
+    padding: 30px 35px;
+    /* Reduzindo o espaçamento entre os links no menu */
+  }
+
+  .links li a {
+    display: none;
+  }
+
+  #meio {
+    width: 100%;
+    height: 200px;
+   margin-left: 200px;
+   margin-top: 50px;
+  }
+
+ #imagem_hamburguer{
+  display: none;
+ }
+
+  #meio button{
+    margin-left: 50px;
+    margin-top: 3 0px;  
+  }
+
+  #linhacoracao img{
+    margin-left: -200px;
+
+  }
+
+  .linhacoracao2{
+    margin-left: -200px;
+  }
+
+  #caixona {
+    width: 450px;
+    height: 400px;
+    padding-top:  80px;
+
+  }
+
+  #retangulo,
+  #retangulo2,
+  #retangulo3,
+  #retangulo4,
+  #retangulo5,
+  #retangulo6 {
+    width: 120px;
+    height: 170px;
+  }
+
+  #luana,
+  #gustavo,
+  #laura,
+  #guilherme,
+  #paula,
+  #davi {
+    width: 90px;
+    height: 90px;
+    font-size: 10px;
+  }
   
-  background-image: url(../images/BillieJoeArmstrong.jpg);
-  background-size: cover;
-  background-position: center center;
-  
+  #caixona img {
+    width: 80px;
+    height: 80px;
+  }
+
+  #caixona p{
+  margin-bottom: 100px;
+  }
+
+  #caixona h3{
+    padding-top: 90px;
+  }
+
 }
