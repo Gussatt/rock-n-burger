@@ -115,6 +115,7 @@ body {
 #meio {
   height: 600px;
 }
+
 #imagem_hamburguer {
   width: 50%;
   height: 500px;
@@ -193,7 +194,7 @@ hr {
 #caixona {
   width: 950px;
   height: 900px;
-  
+
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -261,11 +262,12 @@ hr {
 
 }
 
-#retangulo2 img{
+#retangulo2 img {
   margin-left: -130px;
 }
 
-#retangulo4 img, #retangulo5 img{
+#retangulo4 img,
+#retangulo5 img {
   margin-left: -5px;
 }
 
@@ -354,39 +356,41 @@ p {
 
 /* FOOTER */
 
-footer{
+footer {
   width: 100%;
   color: #fff;
 
 }
-.footer_contacts img{
+
+.footer_contacts img {
   width: 100px;
 }
-.footer-link{
+
+.footer-link {
   text-decoration: none;
 }
 
 #footer_content {
   background-color: #171717;
-  display:grid;
+  display: grid;
   grid-template-columns: repeat(4, 1fr);
   padding: 3rem 3.5rem;
 
 }
 
-#footer_contacts h1{
+#footer_contacts h1 {
   margin-bottom: 0.75rem;
 
 }
 
-#footer_social_midia{
-  display:flex;
+#footer_social_midia {
+  display: flex;
   gap: 2rem;
   margin-top: 1.5rem;
 
 }
 
-#footer_social_midia .footer-link{
+#footer_social_midia .footer-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -398,30 +402,30 @@ footer{
 
 }
 
-#footer_social_midia .footer-link{
+#footer_social_midia .footer-link {
   font-size: 1.25rem;
 }
 
-#footer_social_midia .footer-link:hover{
-  opacity:0.8;
+#footer_social_midia .footer-link:hover {
+  opacity: 0.8;
 }
 
-#instagram{
+#instagram {
   background-color: #7f37c9;
 
 }
 
-#envelope{
+#envelope {
   background-color: #4267b3;
 
 }
 
-#phone{
+#phone {
   background-color: #25d366;
 
 }
 
-.footer-list{
+.footer-list {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
@@ -429,44 +433,44 @@ footer{
 
 }
 
-.footer-list .footer-link{
+.footer-list .footer-link {
   color: #a8a29e;
   transition: all 0.4s;
 
 }
 
-.footer-list .footer-link:hover{
+.footer-list .footer-link:hover {
   color: #ED2939;
 
 }
 
-#footer_subscribe{
-  display:flex;
+#footer_subscribe {
+  display: flex;
   flex-direction: column;
   gap: 1.5rem;
 
 }
 
-#footer_subscribe p{
+#footer_subscribe p {
   color: #a8a29e;
 
 }
 
-#input_group{
+#input_group {
   display: flex;
   background-color: #0e0c0c;
   border-radius: 4px;
 
 }
 
-#input_group input{
+#input_group input {
   all: unset;
   padding: 0.75rem;
   width: 100%;
 
 }
 
-#input_group button{
+#input_group button {
   background-color: #ED2939;
   border: none;
   color: var(--color-neutral-40);
@@ -479,13 +483,13 @@ footer{
 
 }
 
-#input_group button:hover{
+#input_group button:hover {
   opacity: 0.8;
 
 }
 
-#footer_copyright{
-  display:flex;
+#footer_copyright {
+  display: flex;
   justify-content: center;
   background-color: #0e0c0c;
   font-size: 0.9rem;
@@ -497,26 +501,168 @@ footer{
 
 @media only screen and (min-width: 768px) {
   @media only screen and (max-width: 1024px) {
-      
-      #footer_content {
-          grid-template-columns: repeat(2, 1fr);
-          gap: 2rem;
-      }
-      .menu .logo a img {
-        width: 130px; 
-      }    
-      .links li {
-        padding: 20px 25px; /* Reduzindo o espaçamento entre os links no menu */
-      }
-      .links li a{
-        font-size: 25px;
-      }
+
+    #footer_content {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+    }
+
+    .menu .logo a img {
+      width: 130px;
+    }
+
+    .links li {
+      padding: 20px 25px;
+      /* Reduzindo o espaçamento entre os links no menu */
+    }
+
+    .links li a {
+      font-size: 25px;
+    }
+
+    .Caixa{
+      height: 80px;
+    }
+
+    #meio {
+      height: 90px;
+    }
+
+    #meio button{
+      margin-left: 51px;
+    }
+
+    #caixona {
+      width: 450px;
+      height: 400px;
+      padding-top:  80px;
+
+    }
+
+    #retangulo,
+    #retangulo2,
+    #retangulo3,
+    #retangulo4,
+    #retangulo5,
+    #retangulo6 {
+      width: 120px;
+      height: 170px;
+    }
+
+    #luana,
+    #gustavo,
+    #laura,
+    #guilherme,
+    #paula,
+    #davi {
+      width: 90px;
+      height: 90px;
+      font-size: 10px;
+    }
+    
+    #caixona img {
+      width: 80px;
+      height: 80px;
+    }
+
+    #caixona p{
+    margin-bottom: 100px;
+    }
+
+    #caixona h3{
+      padding-top: 90px;
+    }
+
   }
 }
 
 @media only screen and (max-width: 767px) {
   #footer_content {
-      grid-template-columns: repeat(1, 1fr);
-      padding: 3rem 2rem;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 3rem 2rem;
   }
+
+  .menu .logo a img {
+    width: 150px;
+    margin-left: -80px;
+  }
+
+  .header{
+    margin-right: 00px;
+  }
+  .links li {
+    padding: 30px 35px;
+    /* Reduzindo o espaçamento entre os links no menu */
+  }
+
+  .links li a {
+    display: none;
+  }
+
+  #meio {
+    width: 100%;
+    height: 200px;
+   margin-left: 200px;
+   margin-top: 50px;
+  }
+
+ #imagem_hamburguer{
+  display: none;
+ }
+
+  #meio button{
+    margin-left: 50px;
+    margin-top: 3 0px;  
+  }
+
+  #linhacoracao img{
+    margin-left: -200px;
+
+  }
+
+  .linhacoracao2{
+    margin-left: -200px;
+  }
+
+  #caixona {
+    width: 450px;
+    height: 400px;
+    padding-top:  80px;
+
+  }
+
+  #retangulo,
+  #retangulo2,
+  #retangulo3,
+  #retangulo4,
+  #retangulo5,
+  #retangulo6 {
+    width: 120px;
+    height: 170px;
+  }
+
+  #luana,
+  #gustavo,
+  #laura,
+  #guilherme,
+  #paula,
+  #davi {
+    width: 90px;
+    height: 90px;
+    font-size: 10px;
+  }
+  
+  #caixona img {
+    width: 80px;
+    height: 80px;
+  }
+
+  #caixona p{
+  margin-bottom: 100px;
+  }
+
+  #caixona h3{
+    padding-top: 90px;
+  }
+
 }
