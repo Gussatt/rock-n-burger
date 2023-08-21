@@ -6,9 +6,16 @@
 <h2 style="text-align:center;">
   Atividade designada pela professora Debora Paixão
 </h2>
+<p align="center"> Tecnologias utilizadas:
+        <br>
+        <br>
+        <a href="https://skillicons.dev">
+            <img src="https://skillicons.dev/icons?i=js,html,css,git">
+        </a>
+</p>
 <h3>
-  <br>
   Realizada por:
+  <br>
   Paula Martins
   <br>
   Guilherme Melo
@@ -20,3 +27,5 @@
   Gustavo Saturnino
   <br>
 </h3>
+
+
