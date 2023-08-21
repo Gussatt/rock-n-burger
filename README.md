@@ -3,7 +3,7 @@
   Primeira atividade do Curso de Interfaces
 </h1>
 
-<h2 style="text-align:center;">
+<h2 align="center">
   Atividade designada pela professora Debora Paixão
 </h2>
 <p align="center"> Tecnologias utilizadas:
@@ -13,6 +13,11 @@
             <img src="https://skillicons.dev/icons?i=js,html,css,git">
         </a>
 </p>
+<div align="center">
+  <h2> Layout criado para o index.html</h2>
+![layout](https://github.com/Gussatt/rock-n-burger/assets/118837016/90cd7cab-d065-41b5-a6aa-910a64651248)  
+</div>
+
 <h3>
   Realizada por:
   <br>
