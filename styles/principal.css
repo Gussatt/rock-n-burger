@@ -70,7 +70,7 @@ body {
   width: 100%;
   height: 500px;
 
-  background: url(../imagens/ImgSobre.jpg) no-repeat;
+  background: url(../images/ImgSobre.jpg) no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -159,7 +159,7 @@ body {
 .imagem2{
   width: 640px;
   height: 831px;
-  background-image: url(../pictures/WhatsApp-Image-2020-12-21-at-17.51\ 1.svg);
+  background-image: url(../images/WhatsApp-Image-2020-12-21-at-17.51\ 1.svg);
   position: absolute;
   top: 250px;
   left: 50px;
@@ -198,7 +198,7 @@ body {
   position:relative;
   width: 423px;
   height: 390px;
-  background-image: url(../pictures/Rectangle\ 88.svg);
+  background-image: url(../images/Rectangle\ 88.svg);
   background-repeat:no-repeat;
   clear: left;
   display: flex;
@@ -268,18 +268,16 @@ body {
 
 .imagem5{
 
-  clear: left;
  
-  background-image: url(../pictures/Rectangle\ 87.svg);
+  background-image: url(../images/Rectangle\ 89.svg);
   background-repeat:no-repeat;
 
-  
-  width: 465px;
-  height: 780px;
-  
+  position:relative;
+  width: 423px;
+  height: 390px;
 
-  left: 422px;
-  
+  clear: left;
+  display: flex;
 
 }
 
@@ -336,7 +334,7 @@ body {
 .imagem6{
   position: relative;
   height: 390px;
-  background-image: url(../pictures/Rectangle\ 89.svg);
+  background-image: url(../images/Rectangle\ 89.svg);
   background-repeat:no-repeat;
   bottom: 1170px;
   left: 886px;
@@ -347,7 +345,7 @@ body {
   position: absolute;
   width: 570px;
   height: 400px;
-  background-image: url(../pictures/lingua\ 1.svg);
+  background-image: url(../images/lingua\ 1.svg);
   top: 560px;
   left: 280px;
   background-repeat: no-repeat;
