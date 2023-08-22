@@ -565,80 +565,58 @@ footer{
     height: 40px;
   }
   
-  #fundo{
-    width: 145%;
-    }
-   .header {
-    width: 100%;
-    height: 250px;
-    }
-  
-   .menu .logo a img {
-    width: 130px; 
-   }
-    
-   
-   .imagem7, .imagem8, .imagem5,.imagem4, .imagem2{
+  links li a{
     display: none;
   }
 
-    #caixa_chefes, #caixa_carne{
-    clear: left;
-   }
-
-    #imagem1{
-      height: 600px;
-      width: 650px;
-      margin-left: 5px;
-      left: 40px;
-    }
-    #imagem1 h1{
-     padding-left: 40px;
-     text-align: center;
-     }
-
-    #imagem1 p{
-      margin-left: 10px;
-      text-align: center;
-      font-size: 30px;
-      
-     }
-
-     #imagem1 a{
-      margin-left: 250px;
-     }
-
-     #caixa_carne{
-      width: 690px;
-      height: 400px;
-     }
-
-     #caixa_carne h1{
-      color: #090909;
-      font-size: 45px;
-      text-align: center;
-      padding-left: 40px;
-     }
-
-     #caixa_carne p{
-      color: #090909;
-      font-size: 30px;
-      text-align: center;
-      padding-left: 40px;
-     }
-
-     #caixa_carne a{
-      margin-left: 290px;
-
-     }
-    
-     #footer{
-    width: 145%;
+  .menu .logo a img {
+    width: 150px; 
+  }    
+  .Caixa{
+    height: 40px;
   }
-
+  
   #centroimg img{
     display: none;
   }
+  #imagem1{
+    display: none;
+    visibility: hidden;
+  }
+  #esq{
+    display: none;
+    visibility: hidden;
+  }
+  .imagem8{
+    display: none;
+    visibility: hidden;
+  }
+  .imagem7{
+    display: none;
+    visibility: hidden;
+  }
+ #esq{
+  display: none;
+  visibility: hidden;
+ }
+ #dir h1{
+    font-size: 30px;
+ }
+ #dir p{
+    font-size: 15px;
+ }
+
+ .imagem3{
+  display: none;
+  visibility: hidden;
+ }
+
+ #header{
+  display: none;
+ }
+ .menu .logo a img {
+  display: none;
+}  
 }
 
 
