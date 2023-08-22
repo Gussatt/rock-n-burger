@@ -204,7 +204,7 @@ img{
 .conteiner5 > button{
   width: 30%;
   padding: 2vh 0;
-  font-size: 30px;
+  font-size: 20px;
   background-color: #ED2939;
   border-radius: 4vh;
 }
@@ -348,7 +348,9 @@ footer{
   opacity: 0.8;
 
 }
-
+input::placeholder {
+  font-size: 15px; 
+}
 #footer_copyright{
   display:flex;
   justify-content: center;
@@ -397,5 +399,28 @@ footer{
   }    
   .Caixa{
     height: 35px;
+  }
+
+  .Caixa{
+    height: 50px;
+  }
+  .conteiner6{
+   display: none;
+   visibility: hidden;
+  }
+  .img2{
+    display: none;
+    visibility: hidden;
+  }
+
+  .conteiner5{
+    margin-left: 15%;
+  }
+  .conteiner5 button{
+    width: 200px;
+    
+  }
+  .conteiner3{
+    margin-left: -110px;
   }
 }

@@ -130,3 +130,60 @@ img{
     width: 90%;
 
 }
+
+
+/*TABLET*/
+@media only screen and (min-width: 768px) {
+    @media only screen and (max-width: 1024px) {
+        
+        #footer_content {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+        }
+        .menu .logo a img {
+          width: 130px; 
+        }    
+        .links li {
+          padding: 20px 25px; /* Reduzindo o espaçamento entre os links no menu */
+        }
+        .links li a{
+          font-size: 25px;
+        }
+        .Caixa{
+          height: 80px;
+        }
+        #centroimg img{
+          display: none;
+        }
+
+        #maps {
+           width: 100px;
+        }
+    }
+  }
+
+   /*Mobile*/
+
+ @media only screen and (max-width: 767px) {
+    #footer_content {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3rem 2rem;
+    }
+  
+    .menu .logo a img {
+        width: 150px;
+        margin-left: -80px;
+      }
+    
+      .header{
+        margin-right: 00px;
+      }
+      .links li a {
+        display: none;
+      }
+      .Caixa{
+        height: 55px;
+    }
+
+  }
+  
