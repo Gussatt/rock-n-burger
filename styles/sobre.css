@@ -617,12 +617,12 @@ footer {
   }
 
   #linhacoracao img{
-    margin-left: -150px;
+   display: none;
 
   }
 
   .linhacoracao2{
-    margin-left: -200px;
+    display: none;
   }
 
   #caixona {
