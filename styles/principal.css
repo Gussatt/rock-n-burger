@@ -289,7 +289,6 @@ body {
   height: 390px;
   background-image: url(../images/TexturaBranca.png);
   background-repeat:no-repeat;
-  bottom: 780px;
   left:886px;
   bottom:1560px;
   float: left;
@@ -555,7 +554,8 @@ footer{
   }
   
   #fundo{
-    width: 145%;
+    width: 100%;
+    
     }
    .header {
     width: 100%;
@@ -567,70 +567,69 @@ footer{
    }
     
    
-   .imagem7, .imagem8, .imagem5,.imagem4, .imagem2{
+    .imagem5,.imagem4, .imagem2, .imagem7, .imagem8, .imagem3,#caixa_chefe{
     display: none;
   }
 
-    #caixa_chefes, #caixa_carne{
-    clear: left;
-   }
 
     #imagem1{
-      height: 600px;
-      width: 650px;
+      height: 500px;
+      width: 435px;
       margin-left: 5px;
       left: 40px;
+      margin-top: 20px;
     }
     #imagem1 h1{
-     padding-left: 40px;
+     padding-left: 10px;
      text-align: center;
      }
 
     #imagem1 p{
       margin-left: 10px;
       text-align: center;
-      font-size: 30px;
+      font-size: 20px;
       
      }
 
      #imagem1 a{
-      margin-left: 250px;
+      margin-left: 135px;
+      
      }
-
+    
      #caixa_carne{
-      width: 690px;
-      height: 400px;
+      width: 435px;
+      height: 350px;
+      clear: left;
+      float: left;
      }
 
      #caixa_carne h1{
       color: #090909;
-      font-size: 45px;
+      font-size: 40px;
       text-align: center;
-      padding-left: 40px;
+      padding-left: 20px;
+
+      
      }
 
      #caixa_carne p{
       color: #090909;
-      font-size: 30px;
+      font-size: 25px;
       text-align: center;
       padding-left: 40px;
      }
 
      #caixa_carne a{
-      margin-left: 290px;
-
+      margin-left: 160px;
      }
+
+    
     
      #footer{
     width: 145%;
-  }
+   }
 
-  #centroimg img{
+    #centroimg img{
     display: none;
-  }
+    }
 }
-
-
-  
-  
-
