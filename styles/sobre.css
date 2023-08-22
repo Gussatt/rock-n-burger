@@ -589,6 +589,7 @@ footer {
 
   .header{
     width: 100%;
+    background-position: 40%;
   }
   .links li {
     padding: 30px 35px;
