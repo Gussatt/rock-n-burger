@@ -529,9 +529,20 @@ footer{
       #centroimg img{
         display: none;
       }
+      #imagem1{
+        display: none;
+      }
+      #esq{
+        display: none;
+      }
+      .imagem8{
+        display: none;
+      }
 
-      
-  }
+      #parte_superior{
+        padding-left: 100px;
+      }
+  } 
 }
 
  /*Mobile*/
