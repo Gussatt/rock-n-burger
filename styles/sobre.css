@@ -612,8 +612,8 @@ footer {
  }
 
   #meio button{
-    margin-left: 1px;
-    margin-top: 20px;  
+    margin-left: 50px;
+    margin-bottom: 30px; 
   }
 
   #linhacoracao img{
@@ -622,13 +622,13 @@ footer {
   }
 
   .linhacoracao2{
-    display: none;
+   margin-left: -100px;
   }
 
   #caixona {
-    width: 450px;
-    height: 400px;
-    padding-top:  80px;
+    width: 250px;
+    height: 200px;
+    padding-top: 80px;
 
   }
 
@@ -664,6 +664,11 @@ footer {
 
   #caixona h3{
     padding-top: 90px;
+  }
+
+  footer{
+    margin-top: 350px;
+   
   }
 
 }
