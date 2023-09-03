@@ -126,7 +126,12 @@ body {
   background-position: center center;
   float: left;
 }
-
+.paragrafo1 p{
+  font-size: 25px;
+}
+.paragrafo2 p{
+  font-family: arial;
+}
 #paragrafos {
   width: 38%;
   height: 300px;
@@ -204,46 +209,15 @@ hr {
 
 }
 
-#retangulo {
+#retangulo6, 
+#retangulo5,
+#retangulo4,
+#retangulo3,
+#retangulo2, 
+#retangulo{
   width: 250px;
   height: 300px;
-  background-color: #fff;
-  border: 2px solid #ed3929;
-}
-
-#retangulo2 {
-  width: 250px;
-  height: 300px;
-  background-color: #fff;
-  border: 2px solid #ed3929;
-}
-
-#retangulo3 {
-  width: 250px;
-  height: 300px;
-  background-color: #fff;
-  border: 2px solid #ed3929;
-
-}
-
-#retangulo4 {
-  width: 250px;
-  height: 300px;
-  background-color: #fff;
-  border: 2px solid #ed3929;
-}
-
-#retangulo5 {
-  width: 250px;
-  height: 300px;
-  background-color: #fff;
-  border: 2px solid #ed3929;
-}
-
-#retangulo6 {
-  width: 250px;
-  height: 300px;
-  background-color: #fff;
+  background-color: #d1d1d1;
   border: 2px solid #ed3929;
 
 }

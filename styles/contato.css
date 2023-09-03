@@ -128,6 +128,7 @@ img{
  
 }
 .conteiner3{
+  margin-top: 50px;
   position: relative;
   float: left;
   width: 50%;
@@ -136,6 +137,14 @@ img{
   justify-content: space-around;
   flex-direction: column;
 
+}
+.conteiner3 p{
+  font-family: Arial;
+  margin-top: 10px;
+}
+
+.conteiner3 h1{
+  letter-spacing: 5px;
 }
 .conteiner4{
   position: relative;
@@ -185,6 +194,7 @@ img{
 .conteiner5 > h2{
   font-size: 30px;
   color: #ffffff;
+  letter-spacing: 5px;
 }
 .type1, .type2{
   position: relative;
