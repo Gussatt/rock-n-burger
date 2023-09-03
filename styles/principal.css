@@ -6,6 +6,9 @@ body {
   width: 100%;
   height: 100vh;
   font-weight: 400;
+
+  overflow-x: hidden;
+  background-color: #090909;
 }
 
 /*Menu fixo*/
@@ -94,10 +97,48 @@ body {
 
 
 /*CONTEUDO*/
-#fundo{
-  background-color: #090909;
+
+
+.pdois{
+
   width: 100%;
-  height:2200px;
+  height: 800px;
+
+  background-color: #25d366;
+
+  display: flex;
+  flex-direction: row;
+}
+
+#centrao{
+  width:34%;
+  background-image: url(../images/Rectangle\ 87.svg);
+}
+#imagemc{
+  height: 50%;
+  background-image: url(../images/Rectangle\ 88.svg);
+}
+
+#imagems{
+  height: 50%;
+  background-image: url(../images/Rectangle\ 89.svg);
+}
+#esqd, #dird{
+  width:33%;
+}
+#caixa1,#caixa2{
+  height: 50%;
+  background-image: url(../images/TexturaBranca.png);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#top{
+  position: relative;
+  height: 1300px;
 }
 #parte_superior{
   position: relative;  
@@ -362,12 +403,14 @@ body {
 
 }
 
+
 /* FOOTER */
 
 footer{
   width: 100%;
   color: #fff;
 
+  margin-top: 100px;
 }
 .footer_contacts img{
   width: 100px;
