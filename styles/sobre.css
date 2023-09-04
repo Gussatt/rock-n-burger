@@ -121,10 +121,12 @@ body {
   height: 500px;
   position: relative;
   margin-top: 30px;
-  background-image: url(../images/hamburguerartesanal.jpg);
+  background-image: url(../images/comida.jpg);
   background-size: cover;
   background-position: center center;
   float: left;
+
+  margin-left: 20px;
 }
 .paragrafo1 p{
   font-size: 25px;
