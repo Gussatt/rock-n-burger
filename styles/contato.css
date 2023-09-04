@@ -71,7 +71,7 @@ body {
     width: 100%;
     height: 500px;
 
-    background: url(../images/ImgContato.jpg) no-repeat;
+    background: url(../images/contato.jpg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }  
@@ -124,8 +124,11 @@ img{
   
   float: left;
   width: 50%;
-  height: 50vh;
+  height: 55vh;
  
+}
+.conteiner2 img{
+  height: 350px;
 }
 .conteiner3{
   margin-top: 50px;

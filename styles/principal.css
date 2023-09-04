@@ -72,10 +72,6 @@ body {
 .header {
   width: 100%;
   height: 500px;
-
-  background: url(../images/ImgSobre.jpg) no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
 }
 .header::before {
   content: "";
@@ -112,16 +108,21 @@ body {
 
 #centrao{
   width:34%;
-  background-image: url(../images/Rectangle\ 87.svg);
+  background-image: url(../images/hard.jpg);
+  background-size: cover;
+
 }
 #imagemc{
   height: 50%;
-  background-image: url(../images/Rectangle\ 88.svg);
+  background-image: url(../images/comida.jpg);
+
+  background-size: cover;
 }
 
 #imagems{
   height: 50%;
-  background-image: url(../images/Rectangle\ 89.svg);
+  background-image: url(../images/carne.jpg);
+  background-size: cover;
 }
 #esqd, #dird{
   width:33%;
@@ -224,7 +225,9 @@ body {
 .imagem2{
   width: 640px;
   height: 831px;
-  background-image: url(../images/WhatsApp-Image-2020-12-21-at-17.51\ 1.svg);
+  background-image: url(../images/hardcofe.jpg);
+  background-size: cover;
+  border-radius: 10px;
   position: absolute;
   top: 250px;
   left: 50px;
