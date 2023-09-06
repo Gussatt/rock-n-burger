@@ -79,7 +79,7 @@ body {
   width: 100%;
   height: 520px;
 
-  background: url(../images/ImgSobre.jpg) no-repeat;
+  background: url(../images/sobre.jpg) no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -121,12 +121,19 @@ body {
   height: 500px;
   position: relative;
   margin-top: 30px;
-  background-image: url(../images/hamburguerartesanal.jpg);
+  background-image: url(../images/comida.jpg);
   background-size: cover;
   background-position: center center;
   float: left;
-}
 
+  margin-left: 20px;
+}
+.paragrafo1 p{
+  font-size: 25px;
+}
+.paragrafo2 p{
+  font-family: arial;
+}
 #paragrafos {
   width: 38%;
   height: 300px;
@@ -204,50 +211,27 @@ hr {
 
 }
 
-#retangulo {
+#retangulo6, 
+#retangulo5,
+#retangulo4,
+#retangulo3,
+#retangulo2, 
+#retangulo{
   width: 250px;
   height: 300px;
-  background-color: #fff;
-  border: 2px solid #ed3929;
-}
-
-#retangulo2 {
-  width: 250px;
-  height: 300px;
-  background-color: #fff;
-  border: 2px solid #ed3929;
-}
-
-#retangulo3 {
-  width: 250px;
-  height: 300px;
-  background-color: #fff;
+  background-color: #d1d1d1;
   border: 2px solid #ed3929;
 
 }
-
-#retangulo4 {
-  width: 250px;
-  height: 300px;
-  background-color: #fff;
-  border: 2px solid #ed3929;
+#retangulo6 a, 
+#retangulo5 a,
+#retangulo4 a,
+#retangulo3 a,
+#retangulo2 a, 
+#retangulo a{
+  text-decoration: none;
+  color: #000;
 }
-
-#retangulo5 {
-  width: 250px;
-  height: 300px;
-  background-color: #fff;
-  border: 2px solid #ed3929;
-}
-
-#retangulo6 {
-  width: 250px;
-  height: 300px;
-  background-color: #fff;
-  border: 2px solid #ed3929;
-
-}
-
 
 #caixona img {
   width: 200px;

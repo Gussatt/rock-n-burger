@@ -6,6 +6,9 @@ body {
   width: 100%;
   height: 100vh;
   font-weight: 400;
+
+  overflow-x: hidden;
+  background-color: #090909;
 }
 
 /*Menu fixo*/
@@ -69,10 +72,6 @@ body {
 .header {
   width: 100%;
   height: 500px;
-
-  background: url(../images/ImgSobre.jpg) no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
 }
 .header::before {
   content: "";
@@ -94,10 +93,82 @@ body {
 
 
 /*CONTEUDO*/
-#fundo{
-  background-color: #090909;
+
+
+.pdois{
+
   width: 100%;
-  height:2200px;
+  height: 800px;
+
+  background-color: #25d366;
+
+  display: flex;
+  flex-direction: row;
+}
+
+#centrao{
+  width:34%;
+  background-image: url(../images/hard.jpg);
+  background-size: cover;
+
+}
+#imagemc{
+  height: 50%;
+  background-image: url(../images/comida.jpg);
+
+  background-size: cover;
+}
+
+#imagems{
+  height: 50%;
+  background-image: url(../images/carne.jpg);
+  background-size: cover;
+}
+#esqd, #dird{
+  width:33%;
+}
+#caixa1,#caixa2{
+  height: 50%;
+  background-image: url(../images/TexturaBranca.png);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#caixa1 h1,#caixa2 h1{
+  color: #000000;
+}
+#caixa1 p,#caixa2 p{
+  font-family: arial;
+  font-weight: bold;
+  color: #000000;
+  
+  font-size: 18px;
+  margin-top: 20px;
+}
+#caixa1 a, #caixa2 a{
+  background: #090909;
+  width: 150px;
+  height: 60px;
+  color: #fff;
+  font-size: 25px;
+  border-radius: 5px;
+  text-decoration: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+#caixa1 a:hover, #caixa2 a:hover{
+  background: #fff;
+  color: #090909;
+}
+#top{
+  position: relative;
+  height: 1300px;
 }
 #parte_superior{
   position: relative;  
@@ -143,232 +214,55 @@ body {
   color: #fff;
   font-size: 30px;
   text-decoration: none;
- 
-
 }
 
 #conhecer:hover{ 
   background-color: #fff;
   color:#090909;
   transition: 0s all;
-  
-  
-
 }
 
 .imagem2{
   width: 640px;
   height: 831px;
-  background-image: url(../images/WhatsApp-Image-2020-12-21-at-17.51\ 1.svg);
+  background-image: url(../images/hardcofe.jpg);
+  background-size: cover;
+  border-radius: 10px;
   position: absolute;
   top: 250px;
   left: 50px;
   background-repeat:no-repeat;
-
-
-
 }
-.imagem3{
-  position: absolute;
-  width: 617.353px;
-  height: 620px;
-  background-image: url(../images/guitarra.png);
-  top: 550px;
-  background-repeat:no-repeat;
-  float: left;
- 
-
-  
+.imgs{
+  position: absolute; 
 }
-
-
-.centro{
-  width: 100%;
-  position: absolute;
-  margin-top: 1200px;
-  
-}
-
-#dir{
-  width: 33.33333333333333%;
-}
-#esq{
-  width: 33.33333333333333%;
-}
-
-.imagem4{
-  position:relative;
-  width: 423px;
-  height: 390px;
-  background-image: url(../images/Rectangle\ 88.svg);
-  background-repeat:no-repeat;
-  clear: left;
-  display: flex;
-
-}
-
-
-#caixa_carne{
-  position: relative;
-  width: 423px;
-  height: 390px;
-  background-image: url(../images/TexturaBranca.png);
-  clear: left;
-
-}
-
-#caixa_carne h1{
-  font-size: 42px;
-  padding-top: 60px;
-  padding-left: 14px;
-
-}
-#cardapio:hover{
-  background-color: #fff;
-  color:#090909;
-  transition: 0s all;
-
-}
-#caixa_carne p{
-  font-size: 25px;
-  text-align: center;
-  padding-top: 30px;
-  padding-right: 30px;
-
-}
-#caixa_carne a {
-  border-radius: 5px;
-  background: #090909;
-  width: 310px;
-  height: 100px;
-  margin-left: 34%;
-  margin-top: 50%;
-  padding: 5px 5px 5px 5px;
-  color: #fff;
-  font-size: 30px;
-  text-decoration: none;
-
-}
-
-#centroimg {
-  width: 33.33333333333333%;
-}
-#caixona{
-
-  height: 900px;
-
-  display: flex;
-  flex-direction: row;
- 
-  flex-wrap: wrap;
-  align-items: center;
-  margin: auto;
-}
-
-
-
-.imagem5{
-
- 
-  background-image: url(../images/Rectangle\ 89.svg);
-  background-repeat:no-repeat;
-
-  position:relative;
-  width: 423px;
-  height: 390px;
-
-  clear: left;
-  display: flex;
-
-}
-
-
-#caixa_chefes{
-  position: relative;
-  width: 460px;
-  height: 390px;
-  background-image: url(../images/TexturaBranca.png);
-  background-repeat:no-repeat;
-  bottom: 780px;
-  left:886px;
-  bottom:1560px;
-  float: left;
-  clear: left;
- 
-}
-#caixa_chefes h1{
-  font-size: 42px;
-  padding-top: 60px;
-  padding-left: 50px;
-}
-
-#caixa_chefes p {
+.imgs img{
   width: 400px;
-  font-size: 25px;
-  text-align: center;
-  padding-top: 30px;
-  padding-left: 47px;
-
 }
-
-#caixa_chefes a {
-  border-radius: 5px;
-  background: #090909;
-  width: 323px;
-  height: 100px;
-  margin-left: 175px;
-  margin-top: 50%;
-  padding: 5px 5px 5px 5px;
-  color: #fff;
-  font-size: 30px;
-  text-decoration: none;
+#lingua{
+  left: 50%;
 }
-
-#link:hover{
-  background-color: #fff;
-  color:#090909;
-  transition: 0s all;
-
+#mao{
+  left: 18%;
+  top: 2310px;
 }
-.imagem6{
-  position: relative;
-  width: 100px;
-  height: 350px;
-  background-image: url(../images/Rectangle\ 87.svg);
-  background-repeat:no-repeat;
-  bottom: 1170px;
-  left: 886px;
- 
-
-}
-
-.imagem7{
+#guitarra{
   position: absolute;
-  width: 570px;
-  height: 400px;
-  background-image: url(../images/lingua\ 1.svg);
-  top: 560px;
-  left: 280px;
-  background-repeat: no-repeat;
+  z-index: 19;
+  left: 10px;
+  top: 550px;
 }
-  
-
-.imagem8{
-  position: absolute;
-  width: 500px;
-  height: 447px;
-  background-image: url(../images/mao.png);
-  top: 40px;
-  left: 530px;
-
+#imagem1 p{
+  font-family: arial;
+  font-weight: bold;
 }
-
 /* FOOTER */
 
 footer{
   width: 100%;
   color: #fff;
 
+  margin-top: 100px;
 }
 .footer_contacts img{
   width: 100px;
@@ -460,7 +354,6 @@ footer{
 
 #footer_subscribe p{
   color: #a8a29e;
-
 }
 
 #input_group{
@@ -530,9 +423,20 @@ footer{
       #centroimg img{
         display: none;
       }
+      #imagem1{
+        display: none;
+      }
+      #esq{
+        display: none;
+      }
+      .imagem8{
+        display: none;
+      }
 
-      
-  }
+      #parte_superior{
+        padding-left: 100px;
+      }
+  } 
 }
 
  /*Mobile*/
@@ -553,84 +457,35 @@ footer{
   .Caixa{
     height: 40px;
   }
-  
-  #fundo{
-    width: 145%;
-    }
-   .header {
-    width: 100%;
-    height: 250px;
-    }
-  
-   .menu .logo a img {
-    width: 130px; 
-   }
-    
-   
-   .imagem7, .imagem8, .imagem5,.imagem4, .imagem2{
+  .links li a{
     display: none;
   }
 
-    #caixa_chefes, #caixa_carne{
-    clear: left;
-   }
-
-    #imagem1{
-      height: 600px;
-      width: 650px;
-      margin-left: 5px;
-      left: 40px;
-    }
-    #imagem1 h1{
-     padding-left: 40px;
-     text-align: center;
-     }
-
-    #imagem1 p{
-      margin-left: 10px;
-      text-align: center;
-      font-size: 30px;
-      
-     }
-
-     #imagem1 a{
-      margin-left: 250px;
-     }
-
-     #caixa_carne{
-      width: 690px;
-      height: 400px;
-     }
-
-     #caixa_carne h1{
-      color: #090909;
-      font-size: 45px;
-      text-align: center;
-      padding-left: 40px;
-     }
-
-     #caixa_carne p{
-      color: #090909;
-      font-size: 30px;
-      text-align: center;
-      padding-left: 40px;
-     }
-
-     #caixa_carne a{
-      margin-left: 290px;
-
-     }
-    
-     #footer{
-    width: 145%;
-  }
+  .menu .logo a img {
+    display: none;
+  } 
 
   #centroimg img{
     display: none;
   }
-}
+  #imagem1{
+    display: none;
+  }
+  #esq{
+    display: none;
+  }
+  .imagem8{
+    display: none;
+  }
+  .imagem7{
+    display: none;
+  }
+  #dir h1{
+    font-size: 30px;
+  }
+    #imagem5{
+      display: none;
+    }
 
 
-  
-  
-
+  }
