@@ -223,7 +223,15 @@ hr {
   border: 2px solid #ed3929;
 
 }
-
+#retangulo6 a, 
+#retangulo5 a,
+#retangulo4 a,
+#retangulo3 a,
+#retangulo2 a, 
+#retangulo a{
+  text-decoration: none;
+  color: #000;
+}
 
 #caixona img {
   width: 200px;
