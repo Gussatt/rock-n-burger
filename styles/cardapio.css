@@ -193,9 +193,9 @@ body {
 }
 
 .disco{
-    width: 9rem;
-    height: 9rem;
-    background: url(../images/svg/vynil.svg) center center no-repeat;
+    width: 10rem;
+    height: 11rem;
+    background: url(../images/vynil.png) center center no-repeat;
     background-size: cover ;
     position: absolute;
     z-index: 1;
