@@ -26,7 +26,7 @@
   <br>
   Laura Lopes
   <br>
-  David Oliveira
+  Davi Gabriel
   <br>
   Luana Arimitsu
   <br>
